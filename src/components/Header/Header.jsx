@@ -2,8 +2,8 @@ import React from "react"
 
 export default function Header() {
 	return (
-		<div className="hero min-h-screen bg-gray-500">
-			<h1 className="text-3xl text-red-900">Header</h1>
+		<div className="h-24 bg-gray-700">
+			<h1 className="text-3xl text-white">Header</h1>
 		</div>
 	)
 }
