@@ -15,6 +15,9 @@ export default function Header() {
 						<a>Serviços</a>
 					</li>
 					<li>
+						<a>L&A Autopeças</a>
+					</li>
+					<li>
 						<a>Contato</a>
 					</li>
 				</ul>
