@@ -2,8 +2,23 @@ import React from "react"
 
 export default function Header() {
 	return (
-		<div className="h-24 bg-gray-700">
-			<h1 className="text-3xl text-white">Header</h1>
+		<div className="navbar bg-base-100">
+			<div className="flex-1">
+				<a className="btn btn-ghost normal-case text-xl">Logo Oficina</a>
+			</div>
+			<div className="flex-none">
+				<ul className="menu menu-horizontal px-1">
+					<li>
+						<a>Sobre</a>
+					</li>
+					<li>
+						<a>Serviços</a>
+					</li>
+					<li>
+						<a>Contato</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	)
 }
