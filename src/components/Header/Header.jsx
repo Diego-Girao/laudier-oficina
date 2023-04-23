@@ -6,10 +6,7 @@ export default function Header() {
 		<div className="navbar bg-base-100 fixed shadow-md">
 			<div className="flex-1">
 				<a>
-					<img
-						className="btn-lg cursor-pointer hover:blur-sm duration-200 ease-in-out"
-						src={logo}
-					/>
+					<img className="w-1/5 cursor-pointer hover:animate-spin" src={logo} />
 				</a>
 			</div>
 			<div className="flex-none">
