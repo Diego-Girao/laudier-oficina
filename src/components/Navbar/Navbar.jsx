@@ -7,7 +7,7 @@ export default function Navbar() {
 			<div className="flex-1">
 				<a>
 					<img
-						className="w-1/6 cursor-pointer hover:opacity-75 hover:animate-pulse duration-300 ease-in-out"
+						className="w-1/6 cursor-pointer hover:animate-pulse"
 						src={logo}
 					/>
 				</a>
