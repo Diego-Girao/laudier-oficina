@@ -1,40 +1,34 @@
-import React from "react"
-
 export default function Hero() {
 	return (
-		<div
-			className="hero min-h-screen bg-gray-500"
-			style={{ backgroundImage: `url("src/assets/images/tool.jpg")` }}
-		>
-			<div className="hero-content flex-col lg:flex-row">
-				<img
-					src="src/assets/images/WhatsApp Image 2023-04-15 at 19.55.17 (1).jpeg"
-					className="max-w-[12rem] rounded-lg shadow-2xl"
-				/>
-				<div>
-					<h1 className="text-5xl font-bold">
-						Manutenção preventiva é aqui ! 👊
-					</h1>
-					<p className="py-6">
-						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-						excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-						a id nisi.
-					</p>
-					<button className="btn btn-primary">Get Started</button>
+		<>
+			<div className="carousel w-full md:w-full">
+				<div id="item1" className="carousel-item w-full">
+					<img src="src/assets/images/tool.jpg" className="w-full" />
+				</div>
+				<div id="item2" className="carousel-item w-full">
+					<img src="src/assets/images/tool.jpg" className="w-full" />
+				</div>
+				<div id="item3" className="carousel-item w-full">
+					<img src="src/assets/images/tool.jpg" className="w-full" />
+				</div>
+				<div id="item4" className="carousel-item w-full">
+					<img src="src/assets/images/tool.jpg" className="w-full" />
 				</div>
 			</div>
-		</div>
+			<div className="flex justify-center w-full py-2 gap-2">
+				<a href="#item1" className="btn btn-circle btn-sm">
+					1
+				</a>
+				<a href="#item2" className="btn  btn-circle btn-sm">
+					2
+				</a>
+				<a href="#item3" className="btn  btn-circle btn-sm">
+					3
+				</a>
+				<a href="#item4" className="btn  btn-circle btn-sm">
+					4
+				</a>
+			</div>
+		</>
 	)
-}
-
-{
-	/* <section className="justify-center text-white">
-				<p className="text-5xl font-bold text-black">
-					Manutenção preventiva é aqui ! 👊{" "}
-				</p>
-				<span className="text-3xl">
-					Profissional qualificado, produtos de qualidade e com aquele precinho
-					e condições facilitadas! Venham conferir!
-				</span>
-			</section> */
 }
