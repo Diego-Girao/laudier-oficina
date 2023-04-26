@@ -6,7 +6,10 @@ export default function Navbar() {
 		<div className="navbar bg-white fixed z-10 shadow-lg">
 			<div className="flex-1">
 				<a>
-					<img className="w-1/6 cursor-pointer hover:animate-spin" src={logo} />
+					<img
+						className="w-1/6 cursor-pointer hover:opacity-75 hover:animate-pulse duration-300 ease-in-out"
+						src={logo}
+					/>
 				</a>
 			</div>
 			<div className="flex-none">
