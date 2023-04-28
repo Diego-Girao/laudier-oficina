@@ -3,11 +3,11 @@ import logo from "/src/assets/images/logo_oficina.svg"
 
 export default function Navbar() {
 	return (
-		<div className="navbar bg-white z-10 shadow-lg">
+		<div className="navbar z-10 bg-black shadow-lg shadow-yellow-600">
 			<div className="flex-1">
 				<a>
 					<img
-						className="w-1/3 cursor-pointer lg:w-1/6 hover:animate-pulse"
+						className="w-1/3 cursor-pointer bg-white rounded-lg lg:w-1/12 hover:animate-pulse"
 						src={logo}
 					/>
 				</a>
