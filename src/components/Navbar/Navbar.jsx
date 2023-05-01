@@ -12,18 +12,18 @@ export default function Navbar() {
 					/>
 				</a>
 			</div>
-			<div className="flex-none">
-				<ul className="p-1 gap-2 menu lg:menu-horizontal lg:text-2xl">
-					<li className="text-gray-700 font-bold hover:text-red-700 hover:font-bold hover-bordered">
+			<div className="flex">
+				<ul className="p-1 hidden md:flex md:gap-6 md:text-xl md:flex-row">
+					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:bg-gray-700 hover:text-error hover:rounded-md hover:bg-opacity-30">
 						<Link to="/about">Sobre</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:text-red-700 hover:font-bold hover-bordered">
+					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:bg-gray-700 hover:text-error hover:rounded-md hover:bg-opacity-30">
 						<Link to="/repair">Serviços</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:text-red-700 hover:font-bold hover-bordered">
+					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:bg-gray-700 hover:text-error hover:rounded-md hover:bg-opacity-30">
 						<Link to="/store">L&A Autopeças</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:text-red-700 hover:font-bold hover-bordered">
+					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:bg-gray-700 hover:text-error hover:rounded-md hover:bg-opacity-30">
 						<Link to="/contact">Contato</Link>
 					</li>
 				</ul>
