@@ -24,7 +24,7 @@ export default function Footer() {
 			<div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
 				<a href={instagram} target="_blank">
 					<svg
-						className="fill-current opacity-25 hover:fill-purple-500 hover:opacity-100"
+						className="fill-current opacity-25 active:translate-y-1 hover:fill-purple-500 hover:opacity-100"
 						xmlns="http://www.w3.org/2000/svg"
 						width="32"
 						height="32"
@@ -39,7 +39,7 @@ export default function Footer() {
 				</a>
 				<a href={whatsapp} target="_blank">
 					<svg
-						className="fill-current opacity-25 hover:fill-green-600 hover:opacity-100"
+						className="fill-current opacity-25 active:translate-y-1 hover:fill-green-600 hover:opacity-100"
 						xmlns="http://www.w3.org/2000/svg"
 						width="32"
 						height="32"
