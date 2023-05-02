@@ -19,7 +19,7 @@ export default function Navbar() {
 	}
 	return (
 		<nav
-			className={`navbar z-10 bg-black shadow-2xl shadow-black ${
+			className={`navbar md:justify-between z-10 bg-black shadow-2xl shadow-black ${
 				menu == "close" ? "sticky duration-500 pb-[330px]" : "duration-500"
 			}`}
 		>
@@ -36,7 +36,7 @@ export default function Navbar() {
 					<ion-icon
 						name={menu == "menu" ? menu : "close"}
 						onClick={handleMenu}
-					/>
+					></ion-icon>
 				</span>
 			</div>
 			<div className="flex">
