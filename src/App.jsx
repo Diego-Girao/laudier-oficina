@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-			<Hero />
+			{/* <Hero /> */}
 			<Outlet />
 			<Footer />
 		</div>
