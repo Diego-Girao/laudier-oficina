@@ -1,5 +1,3 @@
-import React from "react"
-
 const instagram =
 	"https://instagram.com/laudierjr.mecautomotiva?igshid=YmMyMTA2M2Y="
 const whatsapp = "https://api.whatsapp.com/send?phone=5521969617501"
