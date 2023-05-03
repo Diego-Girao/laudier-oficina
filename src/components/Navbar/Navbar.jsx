@@ -44,16 +44,24 @@ export default function Navbar() {
 					className={`p-1 md:flex md:gap-6 md:text-xl md:flex-row ${styleUl}`}
 				>
 					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
-						<Link to="/about">Sobre</Link>
+						<Link to="/about" onClick={() => setMenu("menu")}>
+							Sobre
+						</Link>
 					</li>
 					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
-						<Link to="/repair">Serviços</Link>
+						<Link to="/repair" onClick={() => setMenu("menu")}>
+							Serviços
+						</Link>
 					</li>
 					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
-						<Link to="/store">L&A Autopeças</Link>
+						<Link to="/store" onClick={() => setMenu("menu")}>
+							L&A Autopeças
+						</Link>
 					</li>
 					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
-						<Link to="/contact">Contato</Link>
+						<Link to="/contact" onClick={() => setMenu("menu")}>
+							Contato
+						</Link>
 					</li>
 				</ul>
 			</div>
