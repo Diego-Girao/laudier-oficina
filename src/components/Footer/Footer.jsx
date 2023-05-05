@@ -7,12 +7,12 @@ export default function Footer() {
 		<footer className="footer text-center items-center p-4 bg-neutral text-neutral-content">
 			<div className="grid-flow-col md:content-center md:place-items-center">
 				<p>
-					Copyright © 2023 - All rights reserved to Laudier Jr. Reparações
+					Copyright © 2023 - Todos os direitos reservados Laudier Jr. Reparações
 					Automotivas
 				</p>
 			</div>
 			<div className="grid-flow-col gap-2 justify-self-center md:items-center md:place-self-center md:justify-self-end">
-				<p>
+				<p className="opacity-40">
 					Por
 					<a href="mailto:diegoramiro25@gmail.com"> Diego Ramiro</a>
 				</p>
