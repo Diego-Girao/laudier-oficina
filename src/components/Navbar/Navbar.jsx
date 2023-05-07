@@ -19,19 +19,19 @@ export default function Navbar() {
 	}
 	return (
 		<nav
-			className={`navbar md:justify-between z-10 bg-black shadow-2xl shadow-black ${
+			className={`navbar justify-center md:justify-between z-10 bg-black shadow-2xl shadow-black ${
 				menu == "close" ? "sticky duration-500 pb-[330px]" : "duration-500"
 			}`}
 		>
 			<div className="flex justify-between items-center">
 				<a href="/">
 					<img
-						className="w-10/12 cursor-pointer lg:w-1/2 hover:animate-pulse"
+						className="flex cursor-pointer w-64 md:w-80 hover:animate-pulse"
 						src={logo}
 					/>
 				</a>
 				<span
-					className={`text-3xl cursor-pointer block text-white mx-2 md:hidden`}
+					className={`flex text-3xl cursor-pointer text-white mx-2 md:hidden`}
 				>
 					<ion-icon
 						name={menu == "menu" ? menu : "close"}
