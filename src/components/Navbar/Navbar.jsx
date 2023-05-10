@@ -41,24 +41,24 @@ export default function Navbar() {
 			</div>
 			<div className="flex">
 				<ul
-					className={`p-1 md:flex md:gap-6 md:text-xl md:flex-row ${styleUl}`}
+					className={`p-4 md:flex md:gap-20 md:text-xl md:flex-row ${styleUl}`}
 				>
-					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="text-gray-700 font-bold active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
 						<Link to="/about" onClick={() => setMenu("menu")}>
 							Sobre
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="text-gray-700 font-bold active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
 						<Link to="/repair" onClick={() => setMenu("menu")}>
 							Serviços
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="text-gray-700 font-bold active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
 						<Link to="/store" onClick={() => setMenu("menu")}>
 							L&A Autopeças
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold p-3 active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="text-gray-700 font-bold active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
 						<Link to="/contact" onClick={() => setMenu("menu")}>
 							Contato
 						</Link>
