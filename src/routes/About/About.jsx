@@ -36,26 +36,6 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-
-			{/* <div className="hero min-h-screen bg-base-200">
-				<div className="hero-content flex-col lg:flex-row-reverse">
-					<img src="" className="max-w-sm rounded-lg shadow-2xl" />
-					<div>
-						<h2 className="text-2xl font-bold"></h2>
-					</div>
-				</div>
-			</div>
-			<section>
-				<p>V</p>
-
-				<h2>VALORES</h2>
-				<ul>
-					<li>Ética e transparência nos negócios.</li>
-					<li>Busca por mudanças contínuas.</li>
-					<li>Respeito por vendedores e clientes.</li>
-					<li>Excelência no atendimento e serviços.</li>
-				</ul>
-			</section> */}
 		</>
 	)
 }
