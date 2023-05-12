@@ -19,7 +19,7 @@ export default function Navbar() {
 	}
 	return (
 		<nav
-			className={`navbar justify-center md:justify-between z-10 bg-black shadow-2xl shadow-black ${
+			className={`navbar sticky inset-0 justify-center md:justify-between z-10 bg-black shadow-2xl shadow-black ${
 				menu == "close" ? "sticky duration-500 pb-[330px]" : "duration-500"
 			}`}
 		>
