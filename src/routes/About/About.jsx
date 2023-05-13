@@ -65,15 +65,15 @@ export default function About() {
 								🎖️ Valores
 							</h2>
 							<ul>
-								<li className="flex items-center mb-4 text-lg gap-1">
+								<li className="flex items-center mb-5 text-lg gap-1">
 									<GearFine className="animate-spin" />
 									Ética e transparência nos negócios.
 								</li>
-								<li className="flex items-center mb-4 text-lg gap-1">
+								<li className="flex items-center mb-5 text-lg gap-1">
 									<GearFine className="animate-spin" />
 									Busca por mudanças contínuas.
 								</li>
-								<li className="flex items-center mb-4 text-lg gap-1">
+								<li className="flex items-center mb-5 text-lg gap-1">
 									<GearFine className="animate-spin" />
 									Respeito por vendedores e clientes.
 								</li>
