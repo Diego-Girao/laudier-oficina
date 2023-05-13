@@ -40,9 +40,7 @@ export default function Navbar() {
 				</span>
 			</div>
 			<div className="flex">
-				<ul
-					className={`p-4 md:flex md:gap-20 md:text-xl md:flex-row ${styleUl}`}
-				>
+				<ul className={`md:flex md:gap-10 md:text-2xl md:flex-row ${styleUl}`}>
 					<li className="text-gray-700 font-bold active:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
 						<Link to="/about" onClick={() => setMenu("menu")}>
 							Sobre
