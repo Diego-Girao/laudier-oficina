@@ -26,12 +26,12 @@ export default function Navbar() {
 			<div className="flex justify-between items-center">
 				<a href="/">
 					<img
-						className="flex cursor-pointer w-64 md:w-80 hover:animate-pulse"
+						className="flex cursor-pointer w-72 md:w-80 hover:animate-pulse"
 						src={logo}
 					/>
 				</a>
 				<span
-					className={`flex text-3xl cursor-pointer text-white mx-2 md:hidden`}
+					className={`flex text-3xl cursor-pointer ml-5 text-white md:hidden`}
 				>
 					<ion-icon
 						name={menu == "menu" ? menu : "close"}
@@ -41,22 +41,22 @@ export default function Navbar() {
 			</div>
 			<div className="flex">
 				<ul className={`md:flex md:gap-10 md:text-2xl md:flex-row ${styleUl}`}>
-					<li className="text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0">
 						<Link to="/about" onClick={() => setMenu("menu")}>
 							Sobre
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0">
 						<Link to="/repair" onClick={() => setMenu("menu")}>
 							Serviços
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0">
 						<Link to="/store" onClick={() => setMenu("menu")}>
 							L&A Autopeças
 						</Link>
 					</li>
-					<li className="text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700">
+					<li className="text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0">
 						<Link to="/contact" onClick={() => setMenu("menu")}>
 							Contato
 						</Link>
