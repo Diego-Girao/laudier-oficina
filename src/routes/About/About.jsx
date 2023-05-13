@@ -10,7 +10,7 @@ export default function About() {
 				}}
 			>
 				<div className="hero-overlay bg-opacity-60"></div>
-				<div className="flex flex-col mt-8 w-3/4 text-justify md:justify-between md:p-4 md:mt-8 md:flex-row md:w-full">
+				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between md:p-4 md:mt-8 md:flex-row md:w-full">
 					{/* CARD 1 */}
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
