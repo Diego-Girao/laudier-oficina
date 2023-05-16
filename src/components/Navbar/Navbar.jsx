@@ -6,7 +6,7 @@ import { useState } from "react"
 export default function Navbar() {
 	const [menu, setMenu] = useState("menu")
 
-	const styleUl = `md:flex md:items-center z-[-1] md:z-auto md:static md:normal-case md:w-auto md:py-0
+	const styleUl = `md:flex md:mr-4 md:items-center z-[-1] md:z-auto md:static md:normal-case md:w-auto md:py-0
                     absolute w-full left-0 uppercase py-4 md:pl-0 pl-7 
                     ${
 											menu == "close"
