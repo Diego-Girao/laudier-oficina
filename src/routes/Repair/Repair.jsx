@@ -7,7 +7,7 @@ const images = [
 		text: "Texto sobre a imagem 1",
 	},
 	{
-		src: "src/assets/images/tool.jpg",
+		src: "src/assets/images/WhatsApp Image 2023-04-15 at 19.55.16 (1).jpeg",
 		alt: "Image 2",
 		text: "Texto sobre a imagem 2",
 	},
@@ -28,10 +28,10 @@ export default function Repair() {
 			</div>
 			{/* 
 			<p>
-				Funcionamento: Segunda à Sábado de 8h às 18h. Domingos e Feriados de 8h
-				às 12h. Profissional qualificado, produtos de qualidade e com aquele
-				precinho e condições facilitadas! Venham conferir!
-			</p> */}
+			Funcionamento: Segunda à Sábado de 8h às 18h. Domingos e Feriados de 8h
+			às 12h. Profissional qualificado, produtos de qualidade e com aquele
+			precinho e condições facilitadas! Venham conferir!
+		</p> */}
 		</>
 	)
 }
