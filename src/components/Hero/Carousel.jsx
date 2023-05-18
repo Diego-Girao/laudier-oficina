@@ -25,10 +25,11 @@ const Carousel = ({ images }) => {
 					{images.map((image, index) => (
 						<div
 							key={index}
-							className={`w-full ${
-								index === currentSlide ? "block" : "hidden"
-							}`}
-							style={{ position: "relative" }}
+							className={`w-full`}
+							style={{
+								position: "relative",
+								display: index === currentSlide ? "block" : "none",
+							}}
 						>
 							<img src={image.src} alt={image.alt} className="w-full h-auto" />
 							<div
