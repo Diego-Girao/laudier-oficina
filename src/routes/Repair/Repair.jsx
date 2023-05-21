@@ -3,22 +3,16 @@ export default function Repair() {
 		<>
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full">
-					<img src="src/assets/images/tool.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
 				</div>
 				<div id="item2" className="carousel-item w-full">
-					<img
-						src="src/assets/images/WhatsApp Image 2023-04-15 at 19.55.16 (1).jpeg"
-						className="w-full"
-					/>
+					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
 				</div>
 				<div id="item3" className="carousel-item w-full">
-					<img src="src/assets/images/tool.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
 				</div>
 				<div id="item4" className="carousel-item w-full">
-					<img
-						src="src/assets/images/WhatsApp Image 2023-04-15 at 19.55.16 (1).jpeg"
-						className="w-full"
-					/>
+					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
 				</div>
 			</div>
 			<div className="flex justify-center w-full py-2 gap-2">
@@ -35,6 +29,12 @@ export default function Repair() {
 					4
 				</a>
 			</div>
+			{/* <a href="#item3" className="btn btn-xs">
+					3
+				</a>
+				<a href="#item4" className="btn btn-xs">
+					4
+				</a> */}
 
 			{/* <h1>Manutenção preventiva é aqui ! 👊</h1> */}
 			{/* 
