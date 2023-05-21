@@ -3,16 +3,16 @@ export default function Repair() {
 		<>
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb1.jpg" className="w-full" />
 				</div>
 				<div id="item2" className="carousel-item w-full">
 					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
 				</div>
 				<div id="item3" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb3.jpg" className="w-full" />
 				</div>
 				<div id="item4" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb4.jpg" className="w-full" />
 				</div>
 			</div>
 			<div className="flex justify-center w-full py-2 gap-2">
