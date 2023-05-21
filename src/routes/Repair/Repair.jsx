@@ -3,13 +3,13 @@ export default function Repair() {
 		<>
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
 				</div>
 				<div id="item2" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
 				</div>
 				<div id="item3" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
+					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
 				</div>
 				<div id="item4" className="carousel-item w-full">
 					<img src="src/assets/images/tool_thumb.jpg" className="w-full" />
