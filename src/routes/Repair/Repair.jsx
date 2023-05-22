@@ -7,7 +7,7 @@ export default function Repair() {
 						src="src/assets/images/tool_thumb1.jpg"
 						className="w-full relative"
 					/>
-					<p className="text-white text-base font-bold absolute glass xl:p-28 md:mx-4 md:text-2xl">
+					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 mx-4 md:text-2xl lg:p-16 xl:p-28">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
 						nemo temporibus quas expedita minima ipsa est voluptate ratione
 						laudantium nostrum reprehenderit nihil enim magni reiciendis,
