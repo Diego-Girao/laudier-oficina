@@ -2,17 +2,35 @@ export default function Repair() {
 	return (
 		<>
 			<div className="carousel w-full">
-				<div id="item1" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb1.jpg" className="w-full" />
+				<div id="item1" className="carousel-item w-full items-center">
+					<img
+						src="src/assets/images/tool_thumb1.jpg"
+						className="w-full relative"
+					/>
+					<p className="text-white text-base font-bold absolute glass xl:p-28 md:mx-4 md:text-2xl">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+						nemo temporibus quas expedita minima ipsa est voluptate ratione
+						laudantium nostrum reprehenderit nihil enim magni reiciendis,
+						delectus tempora porro neque iure?
+					</p>
 				</div>
 				<div id="item2" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb2.jpg" className="w-full" />
+					<img
+						src="src/assets/images/tool_thumb2.jpg"
+						className="w-full relative"
+					/>
 				</div>
 				<div id="item3" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb3.jpg" className="w-full" />
+					<img
+						src="src/assets/images/tool_thumb3.jpg"
+						className="w-full relative"
+					/>
 				</div>
 				<div id="item4" className="carousel-item w-full">
-					<img src="src/assets/images/tool_thumb4.jpg" className="w-full" />
+					<img
+						src="src/assets/images/tool_thumb4.jpg"
+						className="w-full relative"
+					/>
 				</div>
 			</div>
 			<div className="flex justify-center w-full py-2 gap-2">
