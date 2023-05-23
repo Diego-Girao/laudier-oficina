@@ -1,5 +1,6 @@
 import thumb1 from "/src/assets/images/tool_thumb1.jpg"
 import thumb2 from "/src/assets/images/tool_thumb2.jpg"
+import thumb3 from "/src/assets/images/tool_thumb3.jpg"
 
 export default function Repair() {
 	return (
@@ -18,10 +19,7 @@ export default function Repair() {
 					<img src={thumb2} className="w-full relative" />
 				</div>
 				<div id="item3" className="carousel-item w-full">
-					<img
-						src="src/assets/images/tool_thumb3.jpg"
-						className="w-full relative"
-					/>
+					<img src={thumb3} className="w-full relative" />
 				</div>
 				<div id="item4" className="carousel-item w-full">
 					<img
