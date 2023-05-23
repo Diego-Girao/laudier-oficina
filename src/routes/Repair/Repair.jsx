@@ -1,12 +1,11 @@
+import thumb1 from "/src/assets/images/tool_thumb1.jpg"
+
 export default function Repair() {
 	return (
 		<>
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full items-center">
-					<img
-						src="src/assets/images/tool_thumb1.jpg"
-						className="w-full relative"
-					/>
+					<img src={thumb1} className="w-full relative" />
 					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 mx-4 md:text-2xl lg:p-16 xl:p-28">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
 						nemo temporibus quas expedita minima ipsa est voluptate ratione
