@@ -9,7 +9,7 @@ export default function Repair() {
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full items-center">
 					<img src={thumb1} className="w-full relative" />
-					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 mx-4 rounded-xl md:text-lg lg:text-3xl lg:p-10">
+					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 text-justify mx-4 rounded-xl md:text-lg lg:p-4 lg:text-3xl">
 						<mark>Troca de Óleo e do Motor</mark>
 						<br />A troca de óleo e do motor é uma parte crucial da manutenção
 						do seu carro. O óleo lubrificante desempenha um papel fundamental no
