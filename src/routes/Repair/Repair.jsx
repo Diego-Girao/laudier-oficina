@@ -9,11 +9,20 @@ export default function Repair() {
 			<div className="carousel w-full">
 				<div id="item1" className="carousel-item w-full items-center">
 					<img src={thumb1} className="w-full relative" />
-					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 mx-4 md:text-2xl lg:p-16 xl:p-28">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-						nemo temporibus quas expedita minima ipsa est voluptate ratione
-						laudantium nostrum reprehenderit nihil enim magni reiciendis,
-						delectus tempora porro neque iure?
+					<p className="text-white text-base font-bold absolute bg-black bg-opacity-75 mx-4 rounded-xl md:text-lg lg:text-3xl lg:p-10">
+						<mark>Troca de Óleo e do Motor</mark>
+						<br />A troca de óleo e do motor é uma parte crucial da manutenção
+						do seu carro. O óleo lubrificante desempenha um papel fundamental no
+						bom funcionamento do motor, reduzindo o atrito e o desgaste das
+						peças internas. Com o tempo, o óleo fica contaminado por resíduos e
+						perde suas propriedades, o que pode comprometer a eficiência e a
+						durabilidade do motor. Por isso, é recomendado seguir as orientações
+						do fabricante e realizar a troca de óleo nos intervalos
+						recomendados, utilizando o tipo adequado para o seu veículo. Além
+						disso, é importante verificar regularmente o nível de óleo e estar
+						atento a vazamentos. Mantenha o motor do seu carro saudável e
+						prolongue sua vida útil por meio da troca de óleo regular e do
+						cuidado adequado.
 					</p>
 				</div>
 				<div id="item2" className="carousel-item w-full">
