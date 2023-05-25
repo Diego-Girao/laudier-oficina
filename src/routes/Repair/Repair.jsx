@@ -16,7 +16,7 @@ export default function About() {
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-								alt="Troca de oleo"
+								alt="Pessoa trocando o oleo do motor de um carro"
 							/>
 						</figure>
 						<div className="card-body">
@@ -44,8 +44,8 @@ export default function About() {
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
 							<img
-								src="https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhciUyMHByb2JsZW1zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-								alt="Velocímetro de carro"
+								src="https://plus.unsplash.com/premium_photo-1674375344746-2f27c4720440?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+								alt="Homem embaixo do carro suspenso em um elevador de carros com uma lanterna acesa"
 							/>
 						</figure>
 						<div className="card-body">
