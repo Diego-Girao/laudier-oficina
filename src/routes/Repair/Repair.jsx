@@ -91,7 +91,7 @@ export default function About() {
 								ruídos, vibrações ou diminuição na eficiência de frenagem, é
 								fundamental agendar uma revisão imediata. Os freios devem ser
 								inspecionados e, se necessário, reparados ou substituídos por
-								profission ais qualificados. Não negligencie a manutenção dos
+								profissionais qualificados. Não negligencie a manutenção dos
 								freios, pois isso pode comprometer sua segurança e a de outros
 								motoristas. Invista na manutenção preventiva dos freios e
 								desfrute de viagens tranquilas e seguras.
