@@ -49,15 +49,23 @@ export default function About() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
-								👀️ Visão
+							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+								<GearFine className="animate-spin" /> Manutenção Preventiva do
+								Carro
 							</h2>
 							<p className="text-lg">
-								Visão da Laudier Jr Reparação Automotiva é, tornar-se uma
-								empresa líder no mercado automotivo e no mercado de reposição da
-								linha leve no Rio de Janeiro até 2024 e ser reconhecida pela
-								excelência nos serviços oferecidos ao mercado. Essa visão será
-								obtida nacionalmente até 2030.
+								A manutenção preventiva é essencial para garantir o bom
+								funcionamento e prolongar a vida útil do seu veículo. Esse
+								serviço consiste na realização de inspeções periódicas e na
+								execução de tarefas preventivas, como troca de fluidos,
+								verificação de componentes vitais e ajustes necessários. Com a
+								manutenção preventiva adequada, é possível identificar e
+								corrigir problemas antes que eles se tornem mais graves,
+								evitando assim custos elevados de reparo. Além disso, essa
+								prática contribui para a segurança e confiabilidade do carro,
+								reduzindo o risco de falhas mecânicas e acidentes. Agende
+								regularmente a manutenção preventiva do seu veículo e garanta
+								tranquilidade ao dirigir.
 							</p>
 						</div>
 					</div>
