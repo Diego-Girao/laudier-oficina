@@ -98,6 +98,35 @@ export default function About() {
 							</p>
 						</div>
 					</div>
+					{/* CARD 4 */}
+					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+						<figure>
+							<img
+								src="https://images.unsplash.com/photo-1633281256183-c0f106f70d76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+								alt="Motor do carro vista frontal das correias"
+							/>
+						</figure>
+						<div className="card-body">
+							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+								<GearFine className="animate-spin" /> Reparo e Troca de Peças
+							</h2>
+							<p className="text-lg">
+								Eventualmente, seu carro pode precisar de reparos e substituição
+								de peças para garantir seu funcionamento seguro e eficiente.
+								Quando detectar qualquer problema mecânico, é importante buscar
+								um profissional qualificado para avaliar e solucionar a questão.
+								Os reparos podem abranger uma ampla gama de componentes, desde o
+								sistema de suspensão e direção até a transmissão e o sistema de
+								arrefecimento. É fundamental utilizar peças de qualidade e
+								originais para garantir o desempenho e a durabilidade do seu
+								veículo. Lembre-se de que adiar os reparos necessários pode
+								agravar os problemas e levar a danos mais sérios, aumentando os
+								custos e o risco de acidentes. Cuide bem do seu carro,
+								realizando os reparos necessários e mantendo-o em perfeito
+								estado de funcionamento.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
