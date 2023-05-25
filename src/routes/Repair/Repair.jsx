@@ -78,27 +78,24 @@ export default function About() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
-								🎖️ Valores
+							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+								<GearFine className="animate-spin" /> Manutenção dos Freios
 							</h2>
-							<ul>
-								<li className="flex items-center mb-5 text-lg gap-1">
-									<GearFine className="animate-spin" />
-									Ética e transparência nos negócios.
-								</li>
-								<li className="flex items-center mb-5 text-lg gap-1">
-									<GearFine className="animate-spin" />
-									Busca por mudanças contínuas.
-								</li>
-								<li className="flex items-center mb-5 text-lg gap-1">
-									<GearFine className="animate-spin" />
-									Respeito por vendedores e clientes.
-								</li>
-								<li className="flex items-center text-lg gap-1">
-									<GearFine className="animate-spin" />
-									Excelência no atendimento e serviços.
-								</li>
-							</ul>
+							<p className="text-lg">
+								A manutenção adequada do sistema de freios é essencial para
+								garantir a sua segurança e a de todos os ocupantes do veículo.
+								Os freios desempenham um papel fundamental no controle e na
+								parada do carro, por isso é importante estar atento a sinais de
+								desgaste e falhas. Verifique regularmente o estado das
+								pastilhas, discos, tambores e fluido de freio. Caso perceba
+								ruídos, vibrações ou diminuição na eficiência de frenagem, é
+								fundamental agendar uma revisão imediata. Os freios devem ser
+								inspecionados e, se necessário, reparados ou substituídos por
+								profission ais qualificados. Não negligencie a manutenção dos
+								freios, pois isso pode comprometer sua segurança e a de outros
+								motoristas. Invista na manutenção preventiva dos freios e
+								desfrute de viagens tranquilas e seguras.
+							</p>
 						</div>
 					</div>
 				</div>
