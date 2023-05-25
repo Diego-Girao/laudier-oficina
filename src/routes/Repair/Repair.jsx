@@ -10,7 +10,7 @@ export default function About() {
 				}}
 			>
 				<div className="hero-overlay bg-opacity-60"></div>
-				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between md:p-4 md:mt-8 lg:flex-row md:w-full">
+				<div className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-between lg:flex-row lg:flex-wrap">
 					{/* CARD 1 */}
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
@@ -50,8 +50,7 @@ export default function About() {
 						</figure>
 						<div className="card-body">
 							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
-								<GearFine className="animate-spin" /> Manutenção Preventiva do
-								Carro
+								<GearFine className="animate-spin" /> Manutenção Preventiva
 							</h2>
 							<p className="text-lg">
 								A manutenção preventiva é essencial para garantir o bom
