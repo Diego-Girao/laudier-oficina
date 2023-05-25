@@ -1,5 +1,4 @@
 import { GearFine } from "@phosphor-icons/react"
-import thumb1 from "/src/assets/images/tool_thumb1.jpg"
 
 export default function About() {
 	return (
@@ -15,7 +14,10 @@ export default function About() {
 					{/* CARD 1 */}
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
-							<img src={thumb1} alt="Troca de oleo" />
+							<img
+								src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+								alt="Troca de oleo"
+							/>
 						</figure>
 						<div className="card-body">
 							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
