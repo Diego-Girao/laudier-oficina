@@ -73,8 +73,8 @@ export default function About() {
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
 							<img
-								src="https://images.unsplash.com/photo-1597766353939-9d782bde7a2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1vdG9yJTIwZGUlMjBjYXJyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-								alt="Motor"
+								src="https://images.unsplash.com/photo-1613214150384-14921ff659b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+								alt="Disco e pinça de freio"
 							/>
 						</figure>
 						<div className="card-body">
