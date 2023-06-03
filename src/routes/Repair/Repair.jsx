@@ -156,6 +156,34 @@ export default function About() {
 							</p>
 						</div>
 					</div>
+					{/* CARD 6 */}
+					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+						<figure>
+							<img
+								src="https://images.unsplash.com/photo-1591730780695-45f8906bcd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW90b3IlMjBkbyUyMGNhcnJvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+								alt="Motor do carro vista frontal das correias"
+							/>
+						</figure>
+						<div className="card-body">
+							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+								<GearFine className="animate-spin" /> Sistema de Arrefecimento
+							</h2>
+							<p className="text-lg">
+								O sistema de arrefecimento é uma parte fundamental de qualquer
+								veículo movido a motor de combustão interna. Sua principal
+								função é controlar a temperatura do motor, garantindo que ele
+								opere dentro de uma faixa adequada de temperatura. Manter o
+								motor em uma temperatura ideal é essencial para o seu bom
+								funcionamento e para prevenir danos graves. O sistema de
+								arrefecimento evita o superaquecimento do motor, que pode levar
+								a uma série de problemas, como danos ao cabeçote, vazamentos de
+								fluido de arrefecimento e até mesmo a fundição do motor. O
+								fluido de arrefecimento circula pelo motor, absorvendo o calor
+								gerado pela combustão e transferindo-o para o radiador, onde é
+								dissipado para o ambiente.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
