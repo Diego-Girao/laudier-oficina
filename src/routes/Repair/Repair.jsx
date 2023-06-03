@@ -126,6 +126,36 @@ export default function About() {
 							</p>
 						</div>
 					</div>
+					{/* CARD 5 */}
+					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+						<figure>
+							<img
+								src="https://images.unsplash.com/photo-1670764169470-bd2f737f9248?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+								alt="Motor do carro vista frontal das correias"
+							/>
+						</figure>
+						<div className="card-body">
+							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+								<GearFine className="animate-spin" /> Velas de Ignição
+							</h2>
+							<p className="text-lg">
+								As velas de ignição são componentes essenciais do sistema de
+								ignição dos motores a combustão interna. Elas têm a função de
+								gerar a centelha que inflama a mistura ar-combustível dentro da
+								câmara de combustão, dando início ao processo de combustão. No
+								entanto, ao longo do tempo, as velas podem se desgastar,
+								acumular sujeira e apresentar falhas, o que compromete o
+								desempenho do motor. A troca regular das velas é de extrema
+								importância para manter o motor funcionando de maneira
+								eficiente. Velas desgastadas ou sujas podem causar dificuldades
+								na partida do veículo, falhas de ignição, perda de potência,
+								aumento do consumo de combustível e emissões elevadas de
+								poluentes. Além disso, em casos mais graves, as velas
+								danificadas podem causar danos ao sistema de ignição, como a
+								queima da bobina de ignição.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
