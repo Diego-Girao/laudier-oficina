@@ -1,6 +1,13 @@
 import { GearFine } from "@phosphor-icons/react"
+import { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function About() {
+	useEffect(() => {
+		AOS.init()
+		AOS.refresh()
+	}, [])
 	return (
 		<>
 			<div
@@ -12,7 +19,12 @@ export default function About() {
 				<div className="hero-overlay bg-opacity-60"></div>
 				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between md:p-4 md:mt-8 lg:flex-row md:w-full">
 					{/* CARD 1 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"flip-left"}
+						data-aos-duration={"800"}
+						data-aos-easing={"ease-in-out"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1599256630445-67b5772b1204?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fG1lY2hhbmljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -32,7 +44,13 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 2 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"flip-left"}
+						data-aos-duration={"800"}
+						data-aos-delay={"300"}
+						data-aos-easing={"ease-in-out"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhciUyMHByb2JsZW1zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -53,7 +71,13 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 3 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"flip-left"}
+						data-aos-duration={"800"}
+						data-aos-delay={"600"}
+						data-aos-easing={"ease-in-out"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1597766353939-9d782bde7a2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1vdG9yJTIwZGUlMjBjYXJyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
