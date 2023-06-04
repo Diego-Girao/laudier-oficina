@@ -1,6 +1,14 @@
 import { GearFine } from "@phosphor-icons/react"
+import { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
-export default function About() {
+export default function Repair() {
+	useEffect(() => {
+		AOS.init()
+		AOS.refresh()
+	}, [])
+
 	return (
 		<>
 			<div
@@ -10,9 +18,17 @@ export default function About() {
 				}}
 			>
 				<div className="hero-overlay bg-opacity-60"></div>
-				<div className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-between lg:flex-row lg:flex-wrap">
+				<div
+					// data-aos={"fade-up"}
+					// data-aos-duration={"500"}
+					className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-between lg:flex-row lg:flex-wrap"
+				>
 					{/* CARD 1 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"800"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
@@ -41,7 +57,12 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 2 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"800"}
+						data-aos-delay={"300"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1lYyVDMyVBMm5pY28lMjAlN0N8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60"
@@ -69,7 +90,12 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 3 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"800"}
+						data-aos-delay={"600"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1613214150384-14921ff659b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
@@ -98,7 +124,12 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 4 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"600"}
+						data-aos-delay={"300"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1633281256183-c0f106f70d76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
@@ -127,7 +158,12 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 5 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"600"}
+						data-aos-delay={"600"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1670764169470-bd2f737f9248?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
@@ -157,7 +193,12 @@ export default function About() {
 						</div>
 					</div>
 					{/* CARD 6 */}
-					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
+					<div
+						data-aos={"fade-up"}
+						data-aos-duration={"600"}
+						data-aos-delay={"800"}
+						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
+					>
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1591730780695-45f8906bcd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW90b3IlMjBkbyUyMGNhcnJvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
