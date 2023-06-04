@@ -44,8 +44,8 @@ export default function About() {
 					<div className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96">
 						<figure>
 							<img
-								src="https://plus.unsplash.com/premium_photo-1674375344746-2f27c4720440?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-								alt="Homem embaixo do carro suspenso em um elevador de carros com uma lanterna acesa"
+								src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1lYyVDMyVBMm5pY28lMjAlN0N8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60"
+								alt="Vista de uma bancada com várias ferramentas e produtos de uma mecânica"
 							/>
 						</figure>
 						<div className="card-body">
