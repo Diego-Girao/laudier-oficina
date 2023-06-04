@@ -161,7 +161,7 @@ export default function About() {
 						<figure>
 							<img
 								src="https://images.unsplash.com/photo-1591730780695-45f8906bcd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW90b3IlMjBkbyUyMGNhcnJvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-								alt="Motor do carro vista frontal das correias"
+								alt="Vista do angulo superior de um motor de carro"
 							/>
 						</figure>
 						<div className="card-body">
