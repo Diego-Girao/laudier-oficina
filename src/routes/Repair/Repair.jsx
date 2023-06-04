@@ -123,7 +123,6 @@ export default function Repair() {
 					<div
 						data-aos={"fade-up"}
 						data-aos-duration={"600"}
-						data-aos-delay={"300"}
 						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
 					>
 						<figure>
@@ -157,7 +156,7 @@ export default function Repair() {
 					<div
 						data-aos={"fade-up"}
 						data-aos-duration={"600"}
-						data-aos-delay={"600"}
+						data-aos-delay={"200"}
 						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
 					>
 						<figure>
@@ -192,7 +191,7 @@ export default function Repair() {
 					<div
 						data-aos={"fade-up"}
 						data-aos-duration={"600"}
-						data-aos-delay={"800"}
+						data-aos-delay={"400"}
 						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
 					>
 						<figure>
