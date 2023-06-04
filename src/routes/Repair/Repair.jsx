@@ -18,11 +18,7 @@ export default function Repair() {
 				}}
 			>
 				<div className="hero-overlay bg-opacity-60"></div>
-				<div
-					// data-aos={"fade-up"}
-					// data-aos-duration={"500"}
-					className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-between lg:flex-row lg:flex-wrap"
-				>
+				<div className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-between lg:flex-row lg:flex-wrap">
 					{/* CARD 1 */}
 					<div
 						data-aos={"fade-up"}
