@@ -34,8 +34,8 @@ export default function Navbar() {
 				<a href="/">
 					<img
 						data-aos={"fade-right"}
-						data-aos-duration={"400"}
-						data-aos-easing={"ease-in-out"}
+						data-aos-offset={"300"}
+						data-aos-easing={"ease-in-sine"}
 						data-aos-delay={"300"}
 						className="flex cursor-pointer w-72 md:w-80 hover:animate-pulse"
 						src={logo}
@@ -53,8 +53,8 @@ export default function Navbar() {
 			<div className="flex">
 				<ul className={`md:flex md:gap-10 md:text-2xl md:flex-row ${styleUl}`}>
 					<li
-						data-aos={"zoom-in"}
-						data-aos-duration={"500"}
+						data-aos={"fade-up-left"}
+						data-aos-duration={"800"}
 						data-aos-easing={"ease-in-out"}
 						data-aos-delay={"400"}
 						className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
@@ -64,8 +64,8 @@ export default function Navbar() {
 						</Link>
 					</li>
 					<li
-						data-aos={"zoom-in"}
-						data-aos-duration={"500"}
+						data-aos={"fade-up-left"}
+						data-aos-duration={"800"}
 						data-aos-easing={"ease-in-out"}
 						data-aos-delay={"600"}
 						className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
@@ -75,10 +75,10 @@ export default function Navbar() {
 						</Link>
 					</li>
 					<li
-						data-aos={"zoom-in"}
-						data-aos-duration={"500"}
+						data-aos={"fade-up-left"}
+						data-aos-duration={"800"}
 						data-aos-easing={"ease-in-out"}
-						data-aos-delay={"800"}
+						data-aos-delay={"900"}
 						className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
 					>
 						<Link to="/store" onClick={() => setMenu("menu")}>
@@ -86,10 +86,10 @@ export default function Navbar() {
 						</Link>
 					</li>
 					<li
-						data-aos={"zoom-in"}
-						data-aos-duration={"500"}
+						data-aos={"fade-up-left"}
+						data-aos-duration={"1000"}
 						data-aos-easing={"ease-in-out"}
-						data-aos-delay={"1000"}
+						data-aos-delay={"1100"}
 						className="text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
 					>
 						<Link to="/contact" onClick={() => setMenu("menu")}>
