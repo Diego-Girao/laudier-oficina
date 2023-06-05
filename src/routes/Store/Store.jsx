@@ -28,14 +28,13 @@ export default function Store() {
 						<img src={imgBg} alt="Flyer L&A Autopeças" />
 					</figure>
 					<div className="card-body">
-						<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
-							🤝️ Missão
+						<h2 className="card-title p-2 text-2xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							👊 Manutenção preventiva é aqui !
 						</h2>
 						<p className="text-lg">
-							A nossa missão é garantir a excelência em auto peças na
-							comercialização e serviços para o cliente e especialistas em
-							reparação automotiva potencializando valor e sustentabilidade do
-							negócio.
+							Funcionamento: Segunda à Sábado de 8h às 18h. Domingos e Feriados
+							de 8h às 12h. Profissional qualificado, produtos de qualidade e
+							com aquele precinho e condições facilitadas! Venham conferir!s
 						</p>
 					</div>
 				</div>
