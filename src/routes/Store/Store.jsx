@@ -29,7 +29,7 @@ export default function Store() {
 						<img src={imgBg} alt="Flyer L&A Autopeças" />
 					</figure>
 					<div className="card-body bg-gray-100 rounded-xl">
-						<h2 className="card-title p-2 text-3xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+						<h2 className="card-title p-2 text-lg md:text-3xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 							<GearFine className="animate-spin" />
 							Manutenção preventiva é aqui !
 						</h2>
