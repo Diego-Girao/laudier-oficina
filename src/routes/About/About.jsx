@@ -17,7 +17,7 @@ export default function About() {
 				}}
 			>
 				<div className="hero-overlay bg-opacity-60"></div>
-				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between md:p-4 md:mt-8 lg:flex-row md:w-full">
+				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between lg:justify-around md:p-4 md:mt-8 lg:flex-row md:w-full">
 					{/* CARD 1 */}
 					<div
 						data-aos={"flip-left"}
