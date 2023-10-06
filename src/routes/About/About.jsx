@@ -32,7 +32,7 @@ export default function About() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-4xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								🤝️ Missão
 							</h2>
 							<p className="text-lg">
@@ -58,7 +58,7 @@ export default function About() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-4xl text-neutral-800  bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								👀️ Visão
 							</h2>
 							<p className="text-lg">
@@ -85,7 +85,7 @@ export default function About() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-4xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-4xl text-neutral-800  bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								🎖️ Valores
 							</h2>
 							<ul>
