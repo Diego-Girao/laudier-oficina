@@ -5,7 +5,7 @@ import imgBg from "/src/assets/images/owner.png"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-export default function Hero() {
+export default function Home() {
 	useEffect(() => {
 		AOS.init()
 		AOS.refresh()
