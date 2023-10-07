@@ -17,7 +17,7 @@ export default function Store() {
 			}}
 		>
 			<div className="hero-overlay bg-opacity-60"></div>
-			<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-center md:p-4 md:mt-8 lg:flex-row md:w-full">
+			<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-center md:p-4 lg:flex-row lg:w-2/3">
 				{/* CARD 1 */}
 				<div
 					data-aos={"zoom-in"}
@@ -29,7 +29,7 @@ export default function Store() {
 						<img src={imgBg} alt="Flyer L&A Autopeças" />
 					</figure>
 					<div className="card-body bg-gray-100 rounded-xl">
-						<h2 className="card-title p-2 text-lg md:text-3xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+						<h2 className="card-title p-2 text-lg text-neutral-800 md:text-3xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 							<GearFine className="animate-spin" />
 							Manutenção preventiva é aqui !
 						</h2>
