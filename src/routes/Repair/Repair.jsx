@@ -17,7 +17,7 @@ export default function Repair() {
 					backgroundImage: `url("https://images.unsplash.com/photo-1584741621183-bb35de119593?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80")`,
 				}}
 			>
-				<div className="hero-overlay bg-opacity-60"></div>
+				<div className="hero-overlay bg-opacity-80"></div>
 				<div className="flex flex-col mt-8 w-11/12 text-justify md:grid-cols-1 md:w-2/4 md:grid  md:p-4 md:mt-8 lg:w-full lg:flex lg:justify-evenly lg:flex-row lg:flex-wrap">
 					{/* CARD 1 */}
 					<div
@@ -161,7 +161,7 @@ export default function Repair() {
 					<div
 						data-aos={"fade-up"}
 						data-aos-duration={"500"}
-						data-aos-delay={"200"}
+						data-aos-delay={"1450"}
 						data-aos-easing={"ease-in-out"}
 						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
 					>
@@ -197,7 +197,7 @@ export default function Repair() {
 					<div
 						data-aos={"fade-up"}
 						data-aos-duration={"600"}
-						data-aos-delay={"550"}
+						data-aos-delay={"1800"}
 						data-aos-easing={"ease-in-out"}
 						className="card card-bordered mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered md:w-96"
 					>
