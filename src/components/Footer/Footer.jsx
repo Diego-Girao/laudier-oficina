@@ -11,7 +11,7 @@ export default function Footer() {
 				<p>Por Diego Ramiro</p>
 				<a href={github} target="_blank">
 					<svg
-						className="fill-current bg-gray-100 bg-neutral rounded-full opacity-55 w-5 md:w-6 active:translate-y-1 hover:bg-black hover:fill-slate-600 hover:opacity-100"
+						className="fill-current bg-neutral rounded-full opacity-55 w-5 md:w-6 active:translate-y-1 hover:bg-black hover:fill-slate-600 hover:opacity-100"
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 256 256"
 					>
