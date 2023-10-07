@@ -2,18 +2,16 @@ const github = "https://github.com/diego-girao"
 
 export default function Footer() {
 	return (
-		<footer className="footer text-center items-center p-4 bg-neutral text-neutral-content">
-			<div className="grid-flow-col md:content-center md:place-items-center">
-				<p>
-					Copyright © 2023 - Todos os direitos reservados Laudier Jr. Reparações
-					Automotivas
-				</p>
-			</div>
+		<footer className="footer place-items-end p-4 bg-neutral text-neutral-content">
+			<p>
+				Copyright © 2023 - Todos os direitos reservados Laudier Jr. Reparações
+				Automotivas
+			</p>
 			<div className="grid-flow-col gap-2 justify-self-center md:items-center md:place-self-center md:justify-self-end">
-				<p className="opacity-40">Por Diego Ramiro</p>
+				<p>Por Diego Ramiro</p>
 				<a href={github} target="_blank">
 					<svg
-						className="fill-current bg-gray-100 bg-opacity-25 rounded-full opacity-30 w-5 md:w-6 active:translate-y-1 hover:bg-black hover:fill-slate-600 hover:opacity-100"
+						className="fill-current bg-gray-100 bg-neutral rounded-full opacity-55 w-5 md:w-6 active:translate-y-1 hover:bg-black hover:fill-slate-600 hover:opacity-100"
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 256 256"
 					>
@@ -26,7 +24,7 @@ export default function Footer() {
 				</a>
 				<a href="mailto:diegoramiro25@gmail.com">
 					<svg
-						className="fill-current opacity-25 w-5 md:w-6 active:translate-y-1 hover:fill-white hover:opacity-100"
+						className="fill-current opacity-55 w-5 md:w-6 active:translate-y-1 hover:fill-white hover:opacity-100"
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 256 256"
 					>
