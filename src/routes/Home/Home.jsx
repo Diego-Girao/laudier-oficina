@@ -21,7 +21,7 @@ export default function Home() {
 			<div className="card mt-8 justify-center md:mt-8 lg:w-full">
 				{/* CARD 1 */}
 				<div
-					data-aos={"flip-left"}
+					data-aos={"fade-right"}
 					data-aos-duration={"800"}
 					data-aos-easing={"ease-in-out"}
 					className="mb-8 bg-black bg-opacity-40 shadow-lg shadow-black"
