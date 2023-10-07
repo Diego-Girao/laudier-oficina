@@ -11,7 +11,7 @@ export default function Store() {
 	}, [])
 	return (
 		<div
-			className="hero min-h-screen -mt-2 relative -z-10"
+			className="hero relative -z-10"
 			style={{
 				backgroundImage: `url("https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")`,
 			}}
@@ -23,7 +23,7 @@ export default function Store() {
 					data-aos={"zoom-in"}
 					data-aos-duration={"1200"}
 					data-aos-easing={"ease-in-out"}
-					className="card card-bordered md:card-side mb-8 bg-base-100 shadow-lg shadow-black md:card-bordered"
+					className="card card-bordered md:card-side mb-14 bg-base-100 shadow-lg shadow-black md:card-bordered"
 				>
 					<figure>
 						<img src={imgBg} alt="Flyer L&A Autopeças" />
