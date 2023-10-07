@@ -15,12 +15,12 @@ export default function Contact() {
 	return (
 		<>
 			<div
-				className="hero min-h-screen -mt-48"
+				className="hero min-h-screen -mt-28 relative -z-10"
 				style={{
-					backgroundImage: `url("https://plus.unsplash.com/premium_photo-1658527057580-f473648a16d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZW5naW5lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")`,
+					backgroundImage: `url("https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60")`,
 				}}
 			>
-				<div className="hero-overlay bg-opacity-60"></div>
+				<div className="hero-overlay bg-opacity-80"></div>
 				<section className="hero-content mt-36 flex-col text-xl font-bold text-white md:flex-row md:text-3xl">
 					<p
 						data-aos={"fade-right"}
