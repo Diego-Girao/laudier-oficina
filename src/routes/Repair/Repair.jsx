@@ -33,7 +33,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" />
 								Troca de Óleo e do Motor
 							</h2>
@@ -68,7 +68,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" /> Manutenção Preventiva
 							</h2>
 							<p className="text-lg">
@@ -102,7 +102,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" /> Manutenção dos Freios
 							</h2>
 							<p className="text-lg">
@@ -136,7 +136,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" /> Reparo e Troca de Peças
 							</h2>
 							<p className="text-lg">
@@ -171,7 +171,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" /> Velas de Ignição
 							</h2>
 							<p className="text-lg">
@@ -207,7 +207,7 @@ export default function Repair() {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title p-2 text-xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+							<h2 className="card-title p-2 text-xl text-neutral-800 bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 								<GearFine className="animate-spin" /> Sistema de Arrefecimento
 							</h2>
 							<p className="text-lg">
