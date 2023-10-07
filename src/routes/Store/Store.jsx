@@ -11,12 +11,12 @@ export default function Store() {
 	}, [])
 	return (
 		<div
-			className="hero relative -z-10"
+			className="hero min-h-screen -mt-2 relative -z-10"
 			style={{
 				backgroundImage: `url("https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")`,
 			}}
 		>
-			<div className="hero-overlay bg-opacity-60"></div>
+			<div className="hero-overlay bg-opacity-80"></div>
 			<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-center md:p-4 lg:flex-row lg:w-2/3">
 				{/* CARD 1 */}
 				<div
@@ -29,7 +29,7 @@ export default function Store() {
 						<img src={imgBg} alt="Flyer L&A Autopeças" />
 					</figure>
 					<div className="card-body bg-gray-100 rounded-xl">
-						<h2 className="card-title p-2 text-lg text-neutral-800 md:text-3xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
+						<h2 className="card-title p-2 text-lg text-neutral-800 xl:text-2xl bg-gray-200 rounded-md shadow-md shadow-gray-600 mb-2">
 							<GearFine className="animate-spin" />
 							Manutenção preventiva é aqui !
 						</h2>
