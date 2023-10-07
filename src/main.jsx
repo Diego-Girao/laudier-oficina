@@ -6,14 +6,18 @@ import About from "./routes/About/About"
 import Repair from "./routes/Repair/Repair"
 import Store from "./routes/Store/Store"
 import Contact from "./routes/Contact/Contact"
+import Home from "./routes/Home/Home"
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
 const router = createBrowserRouter([
 	{
-		path: "/",
 		element: <App />,
 		children: [
+			{
+				path: "/",
+				element: <Home />,
+			},
 			{
 				path: "/about",
 				element: <About />,
