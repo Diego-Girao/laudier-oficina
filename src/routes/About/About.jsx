@@ -16,8 +16,8 @@ export default function About() {
 					backgroundImage: `url("https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdG9yJTIwZGUlMjBjYXJyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")`,
 				}}
 			>
-				<div className="hero-overlay bg-opacity-60"></div>
-				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between lg:justify-around md:p-4 md:mt-8 lg:flex-row md:w-full">
+				<div className="hero-overlay bg-opacity-80"></div>
+				<div className="flex flex-col mt-8 w-11/12 text-justify md:justify-between lg:justify-around md:place-items-center  md:p-4 md:mt-8 lg:flex-row lg:flex-wrap md:w-full">
 					{/* CARD 1 */}
 					<div
 						data-aos={"flip-left"}
