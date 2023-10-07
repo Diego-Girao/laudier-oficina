@@ -79,7 +79,7 @@ export default function Navbar() {
 						data-aos-duration={"800"}
 						data-aos-easing={"ease-in-out"}
 						data-aos-delay={"900"}
-						className="mb-10 text-2xl text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
+						className="mb-10 text-2xl md:text-center text-gray-700 font-bold hover:translate-y-1 hover:ease-in-out hover:duration-150 hover:text-red-700 md:mb-0"
 					>
 						<Link to="/store" onClick={() => setMenu("menu")}>
 							L&A Autopeças
