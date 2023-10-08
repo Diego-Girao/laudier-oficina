@@ -3,8 +3,7 @@ import { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-const instagram =
-	"https://instagram.com/laudierjr.mecautomotiva?igshid=YmMyMTA2M2Y="
+const instagram = "https://www.instagram.com/laudierjrreparacoesautomotivas/"
 const whatsapp = "https://api.whatsapp.com/send?phone=5521969617501"
 
 export default function Contact() {
