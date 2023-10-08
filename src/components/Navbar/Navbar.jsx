@@ -39,6 +39,7 @@ export default function Navbar() {
 						data-aos-delay={"300"}
 						className="flex cursor-pointer w-72 md:w-80 hover:animate-pulse"
 						src={logo}
+						alt="Logo oficina em forma de carro"
 					/>
 				</a>
 				<span
